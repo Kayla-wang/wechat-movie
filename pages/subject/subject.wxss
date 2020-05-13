@@ -1,0 +1,6 @@
+/* pages/subject/subject.wxss */
+.item image{
+  width: 100%; 
+  height: 400rpx;
+  box-shadow: 0 0 5px #ccc;
+}

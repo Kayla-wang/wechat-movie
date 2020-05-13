@@ -1,0 +1,19 @@
+<!--pages/subject/subject.wxml-->
+<view class="item">
+  <image></image>
+</view>
+<view class="item">
+  <image></image>
+</view>
+<view class="item">
+  <image></image>
+</view>
+<view class="item">
+  <image></image>
+</view>
+<view class="item">
+  <image></image>
+</view>
+<view class="item">
+  <image></image>
+</view>

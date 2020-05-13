@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
+<view class="item">
+  <image></image>
+  <text>标题</text>
+</view>
