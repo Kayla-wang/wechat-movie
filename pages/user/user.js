@@ -1,4 +1,5 @@
-// pages/user/user.js
+var QQMapWX = require('../../static/qqmap-wx-jssdk1.2/qqmap-wx-jssdk.js');
+var qqmapsdk;// pages/user/user.js
 Page({
 
   /**
@@ -12,7 +13,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // 实例化API核心类
+    qqmapsdk = new QQMapWX({
+      key: 'PGDBZ-OJJWS-U5MOO-6ZDFG-LVPFE-MBBB5'
+    });
   },
 
   /**
@@ -26,7 +30,19 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    var _this = this;
+    //调用获取城市列表接口
+    qqmapsdk.getCityList({
+      success: function (res) {//成功后的回调
+        console.log(res);
+      },
+      fail: function (error) {
+        console.error(error);
+      },
+      complete: function (res) {
+        console.log(res);
+      }
+    });
   },
 
   /**
